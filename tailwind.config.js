@@ -17,10 +17,10 @@ export default {
           DEFAULT: '#E3EFF6',
           hover: '#F7F9FC',
         },
-        amber: {
-          DEFAULT: '#E8874A',
-          hover: '#D4703A',
-          light: '#FDF0E8',
+        accent: {
+          DEFAULT: '#38BDF8',
+          hover: '#0EA5E9',
+          light: '#E0F2FE',
         },
         navy: {
           DEFAULT: '#0F1B2D',
