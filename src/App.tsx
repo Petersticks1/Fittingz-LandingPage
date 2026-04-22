@@ -19,7 +19,7 @@ function App() {
         <About />
         <Features />
         <HowItWorks />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <FAQ />
         <Contact />
       </main>
