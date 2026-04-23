@@ -12,7 +12,7 @@ const SocialProofBar = () => {
           {[...cities, ...cities].map((city, index) => (
             <div key={index} className="flex items-center mx-6 lg:mx-10 shrink-0">
               <span className="text-primary font-bold text-lg md:text-xl">{city}</span>
-              <span className="text-amber ml-12 lg:ml-20 text-2xl">·</span>
+              <span className="text-accent ml-12 lg:ml-20 text-2xl">·</span>
             </div>
           ))}
         </div>

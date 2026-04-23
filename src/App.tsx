@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <SocialProofBar />
+        {/* <SocialProofBar /> */}
         <About />
         <Features />
         <HowItWorks />

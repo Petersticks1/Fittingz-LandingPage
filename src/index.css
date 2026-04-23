@@ -14,8 +14,8 @@
 }
 
 @layer components {
-  .btn-glow:hover {
-    box-shadow: 0 0 20px rgba(232, 135, 74, 0.45);
+  .btn-glow {
+    @apply shadow-[0_0_20px_rgba(56,189,248,0.3)] hover:shadow-[0_0_30px_rgba(56,189,248,0.5)];
   }
 
   .section-padding {
@@ -23,7 +23,7 @@
   }
 
   .section-chip {
-    @apply text-xs font-semibold uppercase tracking-widest text-amber bg-amber-light px-3 py-1 rounded-full inline-block mb-4;
+    @apply text-xs font-black uppercase tracking-[0.2em] text-accent bg-accent/10 px-4 py-1.5 rounded-full inline-block;
   }
 
   .card-hover {

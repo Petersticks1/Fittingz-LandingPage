@@ -11,7 +11,7 @@ const Testimonials = () => {
       name: 'Sarah Okon',
       city: 'Lagos',
       quote: "Fittingz has completely transformed how I handle measurements. No more frantic searches for notebooks mid-consultation.",
-      color: 'bg-amber'
+      color: 'bg-accent'
     },
     {
       initials: 'KA',
@@ -48,7 +48,7 @@ const Testimonials = () => {
               className="bg-card p-8 rounded-3xl border border-gray-100 flex flex-col justify-between hover:bg-card-hover hover:scale-[1.02] transition-all duration-300 shadow-sm"
             >
               <div>
-                <div className="flex text-amber mb-6">
+                <div className="flex text-accent mb-6">
                   {[...Array(5)].map((_, i) => (
                     <Icon key={i} icon="mdi:star" className="text-2xl" />
                   ))}
@@ -59,7 +59,7 @@ const Testimonials = () => {
               </div>
 
               <div className="flex items-center gap-4 mt-8 pt-6 border-t border-gray-200">
-                <div className={`w-12 h-12 rounded-full ${t.color === 'bg-navy' ? 'bg-primary' : t.color} flex items-center justify-center text-white font-bold text-sm shadow-lg`}>
+                <div className={`w-12 h-12 rounded-full ${t.color === 'bg-amber' ? 'bg-accent' : t.color} flex items-center justify-center text-white font-bold text-sm shadow-lg`}>
                   {t.initials}
                 </div>
                 <div>
