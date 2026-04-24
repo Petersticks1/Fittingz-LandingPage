@@ -45,7 +45,7 @@ const Hero = () => {
 
   return (
     <>
-    <section className="bg-white min-h-[90vh] flex items-center relative overflow-hidden pt-24 pb-16 px-6 md:px-16 lg:px-24">
+    <section id="home" className="bg-white min-h-[90vh] flex items-center relative overflow-hidden pt-24 pb-16 px-6 md:px-16 lg:px-24">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none"

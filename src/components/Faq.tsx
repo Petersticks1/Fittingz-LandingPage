@@ -44,10 +44,10 @@ const FAQ = () => {
       question: "Will I lose data if I switch between the app and website?",
       answer: "Never. Your data lives securely in the cloud and stays in sync at all times. Switch freely between mobile and web without losing a single measurement or client note."
     },
-    {
-      question: "When will booking and payments arrive?",
-      answer: "Phase 2 — including booking management and payment integration — is already in active development for both platforms. Early access users get priority access to beta features as they roll out."
-    },
+    // {
+    //   question: "When will booking and payments arrive?",
+    //   answer: "Phase 2 — including booking management and payment integration — is already in active development for both platforms. Early access users get priority access to beta features as they roll out."
+    // },
   ];
 
 

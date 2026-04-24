@@ -30,12 +30,12 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <a href="#home" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
            <img src={logo} alt="Fittingz Logo" className="w-8 h-8 object-contain" />
            <div className="text-2xl font-black tracking-tight">
              <span className="text-primary">Fitt</span><span className="text-black">ingz</span>
            </div>
-        </div>
+        </a>
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-10">

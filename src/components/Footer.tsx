@@ -8,7 +8,7 @@ type ModalType = 'privacy' | 'terms' | 'contact' | null;
 // ── Content ───────────────────────────────────────────────────────────────────
 const PRIVACY_CONTENT = `Privacy Policy
 
-This Privacy Policy explains how Altair Attic collects, uses, and protects your information.
+This Privacy Policy explains how Fittingz collects, uses, and protects your information.
 
 1. Information We Collect
 What you provide:
@@ -96,14 +96,14 @@ Questions about privacy or your data?
 Email: hello@altair-attic.com
 Website: altair-attic.com
 
-By using Altair Attic, you agree to this Privacy Policy.`;
+By using Fittingz, you agree to this Privacy Policy.`;
 
 const TERMS_CONTENT = `Terms of Service
 
-Welcome to Altair Attic! By using our Fashion Designer Web Application, you agree to these terms.
+Welcome to Fittingz! By using our Fashion Designer Web Application, you agree to these terms.
 
 1. What We Offer
-Altair Attic helps fashion designers and tailors manage:
+Fittingz helps fashion designers and tailors manage:
 • Client information
 • Orders and projects
 • Body measurements
@@ -159,7 +159,7 @@ Contact Us
 Email: hello@altair-attic.com
 Website: altair-attic.com
 
-By using Altair Attic, you agree to these Terms of Service.`;
+By using Fittingz, you agree to these Terms of Service.`;
 
 // ── Component ─────────────────────────────────────────────────────────────────
 const Footer = () => {
@@ -277,12 +277,12 @@ const Footer = () => {
 
           {/* Left: Brand & Tagline */}
           <div className="flex flex-col items-center lg:items-start max-w-sm">
-            <div className="flex items-center gap-2 mb-4">
+            <a href="#home" className="flex items-center gap-2 mb-4 hover:opacity-80 transition-opacity">
               <img src={logo} alt="Fittingz Logo" className="w-8 h-8 object-contain" />
               <div className="text-2xl font-black tracking-tight">
                 <span className="text-primary">Fitt</span><span className="text-white">ingz</span>
               </div>
-            </div>
+            </a>
             <p className="text-white/40 text-xs md:text-sm leading-relaxed text-center lg:text-left">
               The Digital Atelier. Precision management for the modern fashion house.
             </p>

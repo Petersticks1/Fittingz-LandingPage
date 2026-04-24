@@ -173,7 +173,7 @@ const About = () => {
             who have made Fittingz the heartbeat of their studio — and never looked back.
           </p>
           <a
-            href="#waitlist"
+            href="https://fittingz.vercel.app/register"
             className="relative z-10 inline-flex items-center gap-2 bg-accent hover:bg-accent-hover text-primary-dark font-bold px-8 py-3.5 rounded-full transition-all duration-300 hover:scale-105 shadow-lg shadow-accent/30 text-sm"
           >
             Get Early Access
